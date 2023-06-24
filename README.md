@@ -7,7 +7,7 @@ This repository is connected to dbt Cloud, providing a seamless data modeling an
 
 Find the completed MCDM files in the [staging](/models/staging) directory. Each platform is mapped to a suggested structure for its data table, and the `paid_ads__basic_performance` model aggregates data from all platforms.
 
-The [marts](/models/marts) folder contains the queries used to create the dashboard.
+The [core](/models/marts/core) folder contains the queries used to create the dashboard.
 
 ## Adding a New Platform
 To add a new platform to the data model, follow these steps:
