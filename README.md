@@ -5,9 +5,9 @@ Access the [recreated dashboard](https://lookerstudio.google.com/u/1/reporting/1
 ## MCDM Repository
 This repository is connected to dbt Cloud, providing a seamless data modeling and analytics environment.
 
-Find the completed MCDM files in the [models](/models) directory. Each platform is mapped to a suggested structure for its data table, and the `paid_ads__basic_performance` model aggregates data from all platforms.
+Find the completed MCDM files in the [staging](/models/staging) directory. Each platform is mapped to a suggested structure for its data table, and the `paid_ads__basic_performance` model aggregates data from all platforms.
 
-The [analysis](/analyses) folder contains the queries used to create the dashboard.
+The [core](/models/marts/core) folder contains the queries used to create the dashboard.
 
 ## Adding a New Platform
 To add a new platform to the data model, follow these steps:
